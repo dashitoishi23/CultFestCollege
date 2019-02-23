@@ -73,7 +73,7 @@ class Home extends Component {
                 </div>
             </div>
 
-            <p className="services-header-title" style={{fontSize:'35px'}}><em>DAY 1</em></p>
+            <p className="services-header-title" style={{fontSize:'35px'}}><em>DAY 1 - 28th February 2019</em></p>
      
             <div className="row services-row services-row-head services-row-1">
                 <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -273,7 +273,7 @@ class Home extends Component {
                     </div>
                 </div>
             </div>
-            <p className="services-header-title" style={{fontSize:'35px'}}><em>DAY 2</em></p>
+            <p className="services-header-title" style={{fontSize:'35px'}}><em>DAY 2 - 1st March 2019</em></p>
             <div className="row services-row services-row-tail services-row-2">
                 <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div className="services-group wow animated fadeInLeft" data-wow-offset="40">
@@ -471,7 +471,7 @@ class Home extends Component {
                     </div>
                 </div>
             </div>
-            <p className="services-header-title" style={{fontSize:'35px'}}><em>DAY 3</em></p>
+            <p className="services-header-title" style={{fontSize:'35px'}}><em>DAY 3 - 2nd March 2019</em></p>
 
                         <div className="row services-row services-row-tail services-row-2">
                 <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
