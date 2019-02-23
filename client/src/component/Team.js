@@ -29,7 +29,8 @@ class Team extends Component {
                        Hitoishi Das
                     </h4>
                     <p>
-                    Front-End Development and Designing
+                    <b>16STUHH0048</b>
+                    <b>hitoishi.das@gmail.com</b>
                     </p>
                 </div>
               
@@ -43,7 +44,8 @@ class Team extends Component {
                     Mridul Parakh
                     </h4>
                     <p>
-                    Back End Development and Designing
+                    <b>16STUHH0184</b>
+                    <b>mridulparakh41@gmail.com</b>
                     </p>
                 </div>
            
