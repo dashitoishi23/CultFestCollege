@@ -6,7 +6,8 @@ import QR from '../assets/images/frame.png';
 
  class Events extends Component {
    componentDidMount(){
-     console.log(this.props.location.state)
+     console.log(this.props.location.state);
+     document.body.scrollTop = document.documentElement.scrollTop = 0;
    }
   render() {
     return (
