@@ -27,7 +27,7 @@ module.exports=function validateRegisterInput(data){
   }
 
   
-  if(!validator.isLength(data.enrollment,{min:11,max:11})){
+  if(!validator.isLength(data.enrollment,{min:11,max:20})){
       error.enrollment="enrollment is not valid";
   }
   if(validator.isEmpty(data.enrollment)){

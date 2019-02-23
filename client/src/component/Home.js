@@ -427,13 +427,13 @@ class Home extends Component {
                 <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div className="services-group wow animated fadeInLeft" data-wow-offset="40">
                         <p className="services-icon"><span className="fa fa-cube fa-5x"></span></p>
-                        <h4 className="services-title">Rubix Cube</h4>
+                        <h4 className="services-title">Rubik's Cube</h4>
                         <p className="services-body">An event organized by Yantrikee</p>
                         <p className="services-body">2 PM to 4 PM</p>
                         <p className="services-more"><Link to={{
                             pathname:'/event',
                             state:{
-                                event: 'Rubix Cube',
+                                event: "Rubik's Cube",
                                 desc: 'An event organized by Yantrikee'
                             }
                         }}>Find Out More</Link></p>
