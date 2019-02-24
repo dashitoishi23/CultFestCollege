@@ -7,6 +7,7 @@ import '../assets/bootstrap/css/bootstrap.css';
 // import office from '../assets/img/slider/Office.png';
 import impulse from '../assets/images/impulse.png';
 import Icfai from '../assets/images/ICFAI.jpg';
+import logo from '../assets/images/ifhe new logo.jpg';
 
 
 
@@ -25,8 +26,9 @@ class Navbar extends Component {
                 </button>
 
                  {/* <a className="navbar-brand wow fadeInDownBig" href="/"><img className="office-logo" style={{height:"200px",width:"200px",paddingTop:"20px"}} src={Btech} alt="Office"/></a>      */}
-                 <img src={Icfai} alt="Office" style={{marginLeft:"40px"}} ></img>  
+                 <img src={Icfai} alt="Office" className="kl"></img>  
                  <img src={impulse} alt="Office" style={{marginLeft:"40px",width:"170px",height:"90px"}} ></img>  
+                 <img src={logo} alt="IFHE" style={{marginLeft:"40px",width:"230px",height:"90px"}}/>
             </div>
             <div id="navbar-spy" className="collapse navbar-collapse navbar-responsive-collapse">
             {/* <img src={Icfai} alt="Office" style={{marginLeft:"400px"}} ></img>  */}

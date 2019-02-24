@@ -752,9 +752,15 @@ footer h3 {
     nav .wow{
         margin-top: -25%;
     }
+    .kl{
+        margin-left: -15%;
+    }
 }
 @media(max-width:450px){
     nav .wow{
         margin-top: -7%;
+    }
+    .kl{
+        margin-left: 10%;
     }
 }
