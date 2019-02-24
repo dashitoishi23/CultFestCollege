@@ -27,6 +27,7 @@ import QR from '../assets/images/frame.png';
         <div className="description" style={{overflow:'auto'}}>
           <h1>{this.props.location.state.event}</h1>
           <img src={QR} style={{height:'75%'}} alt=""/>
+          <a href="https://goo.gl/forms/psBBt1Pz0KKmKagl2">Registration Link</a>
           <p  style={{fontSize:'15px'}}>
           {this.props.location.state.desc}
           </p>
