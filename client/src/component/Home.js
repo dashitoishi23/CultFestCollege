@@ -139,7 +139,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Hackathon',
-                                im: '',
+                                im: 'Hackathon.jpg',
                                 desc: 'A Theme will be given on Day1. By Day 2 a project must be done related to the theme'
                             }
                         }}>Find Out More</Link></p>
@@ -297,7 +297,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Hackathon',
-                                im: '',
+                                im: 'Hackathon.jpg',
                                 desc: 'By Day 2 a project must be done related to the theme'
                             }
                         }}>Find Out More</Link></p>
@@ -508,7 +508,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'C-Debugging',
-                                im: '',
+                                im: 'CDebug.jpg',
                                 desc: 'A code will be given which should be debugged'
                             }
                         }}>Find Out More</Link></p>
