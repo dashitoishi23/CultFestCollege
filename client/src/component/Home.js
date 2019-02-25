@@ -86,6 +86,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Line Follower',
+                                im: '',
                                 desc: 'An event organized by ABC/Paritranta'
                             }
                         }}>Find Out More</Link></p>
@@ -102,6 +103,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Idea Competition',
+                                im: '',
                                 desc: 'Have an idea ?\nThen here is your opportunity to prove your talent and get your idea recognised by the entrepreneur experts and setting your idea in right path and gaining knowledge from experts. how to pitch your idea to investors and win exciting cash prizes and become a full fledged entrepreneur.\n11:30 PM to 1 PM'
                             }
                         }}>Find Out More</Link></p>
@@ -118,6 +120,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Photoshop',
+                                im: '',
                                 desc: 'An event organized by Photography Club'
                             }
                         }}>Find Out More</Link></p>
@@ -136,6 +139,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Hackathon',
+                                im: '',
                                 desc: 'A Theme will be given on Day1. By Day 2 a project must be done related to the theme'
                             }
                         }}>Find Out More</Link></p>
@@ -152,6 +156,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Unsolve 360',
+                                im: '',
                                 desc: 'An event organized by 4th Year Students'
                             }
                         }}>Find Out More</Link></p>
@@ -168,6 +173,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Circuit Digest',
+                                im:'',
                                 desc: 'Round 1 - Quiz\nRound 2- A circuit will be given on paper which should be assembled on Bread board and output must be shown'
                             }
                         }}>Find Out More</Link></p>
@@ -185,6 +191,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event:'Robo War',
+                                im: '',
                                 desc: 'An event organized by Yantrikee/ABC/Paritantra'
                             }
                         }}>Find Out More</Link></p>
@@ -201,6 +208,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Gaming',
+                                im: '',
                                 desc: 'An event organized by ABC'
                             }
                         }}>Find Out More</Link></p>
@@ -217,6 +225,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Blind Coding',
+                                im: '',
                                 desc: 'Monitor will be off.\nThe student must code according to the problem statement'
                             }
                         }}>Find Out More</Link></p>
@@ -234,6 +243,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'RC Balloon',
+                                im: '',
                                 desc: 'An event organized by Yantrikee'
                             }
                         }}>Find Out More</Link></p>
@@ -251,6 +261,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Assembler-I2',
+                                im: '',
                                 desc: 'An event organized by I2'
                             }
                         }}>Find Out More</Link></p>
@@ -267,6 +278,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Maze Runner',
+                                im: '',
                                 desc: 'An event organized by all clubs'
                             }
                         }}>Find Out More</Link></p>
@@ -285,6 +297,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Hackathon',
+                                im: '',
                                 desc: 'By Day 2 a project must be done related to the theme'
                             }
                         }}>Find Out More</Link></p>
@@ -301,6 +314,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Track Arena',
+                                im: '',
                                 desc: 'An event organized by ABC/Paritantra'
                             }
                         }}>Find Out More</Link></p>
@@ -317,6 +331,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'CREO',
+                                im: '',
                                 desc: 'An event organized by Yantrikee'
                             }
                         }}>Find Out More</Link></p>
@@ -335,6 +350,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Debates and Quiz',
+                                im: '',
                                 desc: 'An event organized by I2/Innozant/Paritantra/Yantrikee'
                             }
                         }}>Find Out More</Link></p>
@@ -351,6 +367,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Buzz & Brainworm',
+                                im: '',
                                 desc: 'An event organized by I2'
                             }
                         }}>Find Out More</Link></p>
@@ -367,6 +384,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Geeks of Python',
+                                im: '',
                                 desc: 'An event organized by Yantrikee/ABC'
                             }
                         }}>Find Out More</Link></p>
@@ -385,6 +403,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Line Follower Robo',
+                                im: '',
                                 desc: 'An event organized by ABC/Paritantra'
                             }
                         }}>Find Out More</Link></p>
@@ -401,6 +420,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Mobile Photography',
+                                im: '',
                                 desc: 'An event organized by Photography Club'
                             }
                         }}>Find Out More</Link></p>
@@ -417,6 +437,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'RC Football',
+                                im: '',
                                 desc: 'An event organized by Yantrikee'
                             }
                         }}>Find Out More</Link></p>
@@ -434,6 +455,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: "Rubik's Cube",
+                                im:'',
                                 desc: 'An event organized by Yantrikee'
                             }
                         }}>Find Out More</Link></p>
@@ -449,6 +471,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Logo Guessing',
+                                im: '',
                                 desc: 'An event organized by ITS'
                             }
                         }}>Find Out More</Link></p>
@@ -465,6 +488,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Treasure Hunt',
+                                im: '',
                                 desc: 'An event organized by Innozant/I2'
                             }
                         }}>Find Out More</Link></p>
@@ -484,6 +508,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'C-Debugging',
+                                im: '',
                                 desc: 'A code will be given which should be debugged'
                             }
                         }}>Find Out More</Link></p>
@@ -500,6 +525,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Modelling,Longest Chain,Destroy It',
+                                im: '',
                                 desc: 'An event organized by Paritanra/I2'
                             }
                         }}>Find Out More</Link></p>
@@ -516,6 +542,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Programming With Java',
+                                im: '',
                                 desc: 'An event organized by ABC/Yantrikee'
                             }
                         }}>Find Out More</Link></p>
@@ -534,6 +561,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Group Discussion or Debate',
+                                im: '',
                                 desc: 'An event organized by Paritantra/Innozant'
                             }
                         }}>Find Out More</Link></p>
@@ -550,6 +578,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'RC Race',
+                                im: 'RC_Race.jpg',
                                 desc: 'An event organized by Yantrikee'
                             }
                         }}>Find Out More</Link></p>
@@ -566,6 +595,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Lazy Cyclist',
+                                im: '',
                                 desc: 'An event organized by I2'
                             }
                         }}>Find Out More</Link></p>
@@ -584,6 +614,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Paper Presentation',
+                                im: '',
                                 desc:'IEEE FORMAT, MAXIMUM 6 PAGES. Topics: Robotics Data Science Communication Systems Sattelite communication Environmental Technology Advancements in Agricultural Technology Industry Automation Advancements in Technology in Day to day life Video Streaming between two planets. Keep Text to a minimum'
                             } 
                         }}>Find Out More</Link></p>
@@ -600,6 +631,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Programming With Java',
+                                im: '',
                                 desc: 'An event organized by Yantrikee'
                             }
                         }}>Find Out More</Link></p>

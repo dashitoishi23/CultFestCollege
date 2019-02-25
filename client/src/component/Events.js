@@ -3,10 +3,12 @@ import React, { Component } from 'react';
 import './e.scss';
 import Slide1 from '../assets/img/slider/slide1.jpg';
 import QR from '../assets/images/frame.png';
+import im1 from '../assets/images/RC_Race.jpg';
+
 
  class Events extends Component {
    componentDidMount(){
-     console.log(this.props.location.state);
+     console.log(this.props.location.state.im);
      document.body.scrollTop = document.documentElement.scrollTop = 0;
    }
   render() {
@@ -18,11 +20,10 @@ import QR from '../assets/images/frame.png';
               </div>
     </div>
         <div className="blog-card">
-        <div className="meta">
-          <div className="photo" style={{backgroundImage:" url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"}}></div>
-          <p className="details" style={{fontSize:'15px'}}>
-          {this.props.location.state.desc}
-          </p>
+        <div className="meta" style={{overflow:'auto'}}>
+        {this.props.location.state.im.length === 0 ?<div className="photo" style={{backgroundImage:"url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"}}></div> :     <img  alt="Failed to load poster" style={{width:'100%'}}src={require(`../assets/images/${this.props.location.state.im}`)}></img>  }
+
+
         </div>
         <div className="description" style={{overflow:'auto'}}>
           <h1>{this.props.location.state.event}</h1>
