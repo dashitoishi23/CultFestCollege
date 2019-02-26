@@ -243,7 +243,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'RC Balloon',
-                                im: '',
+                                im: 'RC Balloon.jpg',
                                 desc: 'An event organized by Yantrikee'
                             }
                         }}>Find Out More</Link></p>
@@ -437,7 +437,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'RC Football',
-                                im: '',
+                                im: 'RC Football.jpg',
                                 desc: 'An event organized by Yantrikee'
                             }
                         }}>Find Out More</Link></p>
