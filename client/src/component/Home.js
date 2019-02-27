@@ -273,7 +273,7 @@ class Home extends Component {
                         <p className="services-icon"><i className="fa fa-cube fa-5x"></i></p>
                         <h4 className="services-title">Maze Runner</h4>
                         <p className="services-body">An event organized by all clubs</p>
-                        <p className="services-body">4 PM to 5:30 PM</p>
+                        <p className="services-body">11 AM to 3 PM</p>
                         <p className="services-more"><Link to={{
                             pathname:'/event',
                             state:{
