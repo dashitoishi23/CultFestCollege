@@ -278,7 +278,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Maze Runner',
-                                im: 'Maze Runner.jpg',
+                                im: 'Maze Runner.png',
                                 desc: 'An event organized by all clubs'
                             }
                         }}>Find Out More</Link></p>
