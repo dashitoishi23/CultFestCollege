@@ -261,7 +261,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Assembler-I2',
-                                im: '',
+                                im: 'Assembler.jpg',
                                 desc: 'An event organized by I2'
                             }
                         }}>Find Out More</Link></p>
@@ -278,7 +278,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: 'Maze Runner',
-                                im: '',
+                                im: 'Maze Runner.jpg',
                                 desc: 'An event organized by all clubs'
                             }
                         }}>Find Out More</Link></p>
@@ -455,7 +455,7 @@ class Home extends Component {
                             pathname:'/event',
                             state:{
                                 event: "Rubik's Cube",
-                                im:'',
+                                im:'Rubiks Cube.jpg',
                                 desc: 'An event organized by Yantrikee'
                             }
                         }}>Find Out More</Link></p>
