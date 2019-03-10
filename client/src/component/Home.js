@@ -23,12 +23,12 @@ class Home extends Component {
         <div className="container">
             <div className="row">
                 <div className="services-header">
-                    <h3 className="services-header-title">EVENTS</h3>
-                    <p className="services-header-body"><em>Join in on the fun with these events</em>  </p><hr></hr>
+                    <h3 className="services-header-title" style={{color:'white'}}>EVENTS</h3>
+                    <p className="services-header-body"  style={{color:'white'}}><em>Join in on the fun with these events</em>  </p><hr></hr>
                 </div>
             </div>
 
-            <p className="services-header-title" style={{fontSize:'35px'}}><em>DAY 1 - 15th March 2019</em></p>
+            <p className="services-header-title" style={{fontSize:'35px',color:'white'}}><em>DAY 1 - 15th March 2019</em></p>
      
             <div className="row services-row services-row-head services-row-1">
                 <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -51,7 +51,7 @@ class Home extends Component {
         
 
         
-                            <p className="services-header-title" style={{fontSize:'35px'}}><em>DAY 2 - 16th March 2019</em></p>
+                            <p className="services-header-title" style={{fontSize:'35px',color:'white'}}><em>DAY 2 - 16th March 2019</em></p>
             <div className="row services-row services-row-tail services-row-2">
             <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div className="services-group wow animated zoomIn" data-wow-offset="40" >
@@ -70,7 +70,7 @@ class Home extends Component {
                     </div>
                 </div> 
             </div>
-            <p className="services-header-title" style={{fontSize:'35px'}}><em>DAY 3 - 17th March 2019</em></p>
+            <p className="services-header-title" style={{fontSize:'35px',color:'white'}}><em>DAY 3 - 17th March 2019</em></p>
 
                         <div className="row services-row services-row-tail services-row-2">
                         <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">

@@ -6,7 +6,7 @@ import '../assets/css/font-awesome.min.css';
 import '../assets/bootstrap/css/bootstrap.css';
 // import office from '../assets/img/slider/Office.png';
 import impulse from '../assets/images/triti.png';
-import logo from '../assets/images/ifhe new logo.jpg';
+
 
 
 
@@ -14,7 +14,7 @@ class Navbar extends Component {
   render() {
     return (
       <div >
-        <nav style={{backgroundColor:"#eee",marginBottom:"0px"}} id="navbar-section" className="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
+        <nav style={{backgroundColor:"black",marginBottom:"0px"}} id="navbar-section" className="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
         <div className="container">
         <div className="navbar-header">
                 <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -26,7 +26,6 @@ class Navbar extends Component {
 
                  {/* <a className="navbar-brand wow fadeInDownBig" href="/"><img className="office-logo" style={{height:"200px",width:"200px",paddingTop:"20px"}} src={Btech} alt="Office"/></a>      */}
                  <img src={impulse} alt="Office" style={{width:"95px",height:"100px"}} ></img>  
-                 <img src={logo} alt="IFHE" style={{marginLeft:"40px",width:"230px",height:"110px"}}/>
             </div>
             <div id="navbar-spy" className="collapse navbar-collapse navbar-responsive-collapse">
             {/* <img src={Icfai} alt="Office" style={{marginLeft:"400px"}} ></img>  */}

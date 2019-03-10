@@ -152,16 +152,10 @@ class Register extends Component {
                         </div>
                         <div className="col-sm-4 col-lg-3 col-lg-offset-1">
                         <h4 style={{color: "black", marginTop: 17 + "px"}}>Find us at:</h4>
-                    <p className="block-author">Faculty Of Science and Technology</p>
                     <p>IFHE Hyderabad</p>
-                    <p><b>Faculty Coordinators:</b></p>
-                    <p>9866167140 (Prof.A.Chandrasekhar)</p>
-                    <p>7893991157 (Prof.Priya Natesh)</p>
-                    <p><b>Student Coordinators</b></p>
-                    <p>916001157 (Pardhavi)</p>
-                    <p>9989503535 (Nivedh)</p>
-                    <p>8897134578 (Veda)</p>
-                    <em className="block-author">Email: impulse@ifheindia.org</em> <br></br>
+                    <p><b>Contact:</b></p>
+                    <p>8978619904</p>
+                    <p>7093881982</p>
                     <br></br>
 
                             <br></br>

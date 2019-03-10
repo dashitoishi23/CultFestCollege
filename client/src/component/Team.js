@@ -25,12 +25,12 @@ class Team extends Component {
                     <div className="square pull-left">
                         <img src={Slide2} alt="Feature-img" height="80" width="100"/>
                     </div>
-                    <h4>
+                    <h4  style={{color:'white'}}>
                        Hitoishi Das
                     </h4>
                     <p>
-                    <b>16STUHH0048</b><br />
-                    <b>hitoishi.das@gmail.com</b>
+                    <b  style={{color:'white'}}>16STUHH0048</b><br />
+                    <b  style={{color:'white'}}>hitoishi.das@gmail.com</b>
                     </p>
                 </div>
               
@@ -40,12 +40,12 @@ class Team extends Component {
                     <div className="square pull-left">
                         <img src={Slide3} alt="Feature-img" height="80" width="100"/>
                     </div>
-                    <h4>
+                    <h4  style={{color:'white'}}>
                     Mridul Parakh
                     </h4>
                     <p>
-                    <b>16STUHH0184</b><br />
-                    <b>mridulparakh41@gmail.com</b>
+                    <b  style={{color:'white'}}>16STUHH0184</b><br />
+                    <b  style={{color:'white'}}>mridulparakh41@gmail.com</b>
                     </p>
                 </div>
            
