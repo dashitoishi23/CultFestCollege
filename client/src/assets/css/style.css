@@ -755,6 +755,9 @@ footer h3 {
     .kl{
         margin-left: -15%;
     }
+    .car{
+        margin-left: 50%;
+    }
 }
 @media(max-width:450px){
     nav .wow{

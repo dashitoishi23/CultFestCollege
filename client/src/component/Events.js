@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import './e.scss';
 import Slide1 from '../assets/img/slider/slide1.jpg';
 import QR from '../assets/images/frame.png';
-import im1 from '../assets/images/RC_Race.jpg';
 
 
  class Events extends Component {
