@@ -34,7 +34,7 @@ class Navbar extends Component {
                 
                     <li className="active">
                      
-                        <a href="/">Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
                         <Link to="/highlights">Highlights</Link>
