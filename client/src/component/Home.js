@@ -10,12 +10,7 @@ import '../assets/bootstrap/css/bootstrap.css';
 import { Link } from 'react-router-dom';
 
 class Home extends Component {
-    state={
-        loadedOnce:0
-    }
-    componentDidMount(){
-        this.setState({loadedOnce:this.state.loadedOnce+1});
-    }
+
 
   render() {
     return (
