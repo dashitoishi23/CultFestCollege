@@ -758,6 +758,9 @@ footer h3 {
     .car{
         margin-left: 50%;
     }
+    video{
+        height: 500px;
+    }
 }
 @media(max-width:450px){
     nav .wow{
@@ -765,6 +768,9 @@ footer h3 {
     }
     .kl{
         margin-left: 10%;
+    }
+    video{
+        height: 100%;
     }
 }
 

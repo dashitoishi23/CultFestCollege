@@ -10,12 +10,21 @@ import '../assets/bootstrap/css/bootstrap.css';
 import { Link } from 'react-router-dom';
 
 class Home extends Component {
+    componentDidMount() { this.update(); }
 
+    componentDidUpdate() { this.update(); }
+
+    update() {
+        //this.refs.video.setAttribute('muted', '0');
+        this.refs.video.setAttribute('loop', '1');
+        this.refs.video.setAttribute('playsinline', '1');
+        this.refs.video.setAttribute('autoplay', '1');
+    }
 
   render() {
     return (
         <div>
-         <video style={{height:'100%',width:'100%'}}loop muted autoPlay playsInline>
+         <video style={{width:'100%'}} controls autoPlay playsInline muted ref="video">
             <source src={vid} type='video/mp4'/>
         </video>
 

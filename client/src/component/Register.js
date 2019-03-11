@@ -67,78 +67,78 @@ class Register extends Component {
                                     <fieldset>
                                
                                         <div className="form-group form-group-fullname">
-                                            <label className="control-label">Name *</label>
+                                            <label className="control-label" style={{color:'white'}}>Name *</label>
                                             <input type="text" className="form-control" 
                                             name="name" id="fullname" placeholder="Enter Your Name"
                                             value={this.state.name}
                                             onChange={(event) => this.changeHandler(event)} />
                                                   {errors.name && (
-                                        <div className="invalid-feedback" style={{color:"red"}}>{errors.name}</div>
+                                        <div className="invalid-feedback" style={{color:"white"}}>{errors.name}</div>
                                     )}
                                         </div>
                                       
                                         <div className="form-group form-group-fullname">
-                                            <label className="control-label">ENROLLMENT *</label>
+                                            <label className="control-label" style={{color:'white'}}>ENROLLMENT *</label>
                                             <input type="text" className="form-control" 
                                             name="enrollment" id="fullnam" placeholder="Enter Your Entrollment"
                                             value={this.state.enrollment}
                                             onChange={(event) => this.changeHandler(event)} />
                                                {errors.enrollment && (
-                                        <div className="invalid-feedback" style={{color:"red"}}>{errors.enrollment}</div>
+                                        <div className="invalid-feedback" style={{color:"white"}}>{errors.enrollment}</div>
                                     )}
                                         </div>
                                      
 
                                         <div className="form-group form-group-email">
-                                            <label className="control-label" >E-MAIL *</label>
+                                            <label className="control-label" style={{color:'white'}}>E-MAIL *</label>
                                             <input type="text" className="form-control" 
                                             name="email" id="email" placeholder="Enter Your E-Mail"
                                             value={this.state.email} 
                                             onChange={(event) => this.changeHandler(event)}/>
                                              {errors.email && (
-                                        <div className="invalid-feedback" style={{color:"red"}}>{errors.email}</div>
+                                        <div className="invalid-feedback" style={{color:"white"}}>{errors.email}</div>
                                     )}
                                         </div>
                                        
                                         <div className="form-group form-group-fullname">
-                                            <label className="control-label">Branch *</label>
+                                            <label className="control-label" style={{color:'white'}}>Branch *</label>
                                             <input type="text" className="form-control"
                                              name="branch" id="fullnam" placeholder="Enter Your Branch"
                                              value={this.state.branch}
                                              onChange={(event) => this.changeHandler(event)} />
                                                {errors.branch && (
-                                        <div className="invalid-feedback" style={{color:"red"}}>{errors.branch}</div>
+                                        <div className="invalid-feedback" style={{color:"white"}}>{errors.branch}</div>
                                     )}
                                         </div>
                                       
                                         <div className="form-group form-group-fullname">
-                                            <label className="control-label">Phone Number *</label>
+                                            <label className="control-label" style={{color:'white'}}>Phone Number *</label>
                                             <input type="number" className="form-control"
                                              name="phone" id="fullnam" placeholder="Enter Your Phone Number"
                                              value={this.state.phone}
                                              onChange={(event) => this.changeHandler(event)} />
                                                {errors.phone && (
-                                        <div className="invalid-feedback" style={{color:"red"}}>{errors.phone}</div>
+                                        <div className="invalid-feedback" style={{color:"white"}}>{errors.phone}</div>
                                     )}
                                         </div>
                                       
                                         <div className="container">
 
-                                        <label className="radio-inline">
+                                        <label className="radio-inline" style={{color:'white'}}>
                                             <input type="radio" name="gender" 
                                             onClick={()=>this.setState({gender:"male"})}
                                          
                                             />Male
                                             </label>
 
-                                        <label className="radio-inline">
+                                        <label className="radio-inline" style={{color:'white'}}>
                                             <input type="radio" name="gender"
                                             onClick={()=>this.setState({gender:"female"})}
                                            
                                             />Female
                                             </label>
                                             {errors.gender && (
-                                        <div className="invalid-feedback" style={{color:"red"}}>{errors.gender}</div>
+                                        <div className="invalid-feedback" style={{color:"white"}}>{errors.gender}</div>
                                     )}
                                             </div>
                                       
@@ -151,11 +151,11 @@ class Register extends Component {
                             </div>
                         </div>
                         <div className="col-sm-4 col-lg-3 col-lg-offset-1">
-                        <h4 style={{color: "black", marginTop: 17 + "px"}}>Find us at:</h4>
-                    <p>IFHE Hyderabad</p>
-                    <p><b>Contact:</b></p>
-                    <p>8978619904</p>
-                    <p>7093881982</p>
+                        <h4 style={{color: "white", marginTop: 17 + "px"}}>Find us at:</h4>
+                    <p style={{color:'white'}}>IFHE Hyderabad</p>
+                    <p style={{color:'white'}}><b>Contact:</b></p>
+                    <p style={{color:'white'}}>8978619904</p>
+                    <p style={{color:'white'}}>7093881982</p>
                     <br></br>
 
                             <br></br>

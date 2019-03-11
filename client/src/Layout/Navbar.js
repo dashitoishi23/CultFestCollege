@@ -14,7 +14,7 @@ class Navbar extends Component {
   render() {
     return (
       <div >
-        <nav style={{backgroundColor:"black",marginBottom:"0px"}} id="navbar-section" className="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
+        <nav style={{backgroundColor:"white",marginBottom:"0px"}} id="navbar-section" className="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
         <div className="container">
         <div className="navbar-header">
                 <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -34,7 +34,7 @@ class Navbar extends Component {
                 
                     <li className="active">
                      
-                        <Link to="/">Home</Link>
+                        <a href="/">Home</a>
                     </li>
                     <li>
                         <Link to="/highlights">Highlights</Link>

@@ -13,7 +13,7 @@ class About extends Component {
     return (
       <div>
             <div className="row container-kamn">
-            <video style={{height:'100%',width:'100%'}} loop autoPlay>
+            <video style={{height:'100%',width:'100%'}} loop autoPlay playsInline>
                 <source src={Slide1} type="video/mp4"/>
             </video>
     </div>
