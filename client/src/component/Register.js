@@ -138,7 +138,7 @@ class Register extends Component {
                                             />Female
                                             </label>
                                             {errors.gender && (
-                                        <div className="invalid-feedback" style={{color:"white"}}>{errors.gender}</div>
+                                        <div className="invalid-feedback" style={{color:"white  "}}>{errors.gender}</div>
                                     )}
                                             </div>
                                       
